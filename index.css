@@ -167,7 +167,7 @@ footer {
     margin-left: 21em ;
 }
 
-.error-number .error-name .month-error .year-error .cvc-error {
+.error-number, .error-name, .month-error,.year-error,.cvc-error {
     color:  hsl(0, 100%, 66%);
 }
 
@@ -209,7 +209,7 @@ h2 {
         /* background-color: black; */
         width: 100vw;
         height: 100vh;
-        gap: 10em;
+        /* gap: 10em; */
 }
 .aside {
     width: 100%;
