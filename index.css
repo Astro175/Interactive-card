@@ -167,6 +167,10 @@ footer {
     margin-left: 21em ;
 }
 
+.error-number .error-name .month-error .year-error .cvc-error {
+    color:  hsl(0, 100%, 66%);
+}
+
 /*  Completed state */
 
 .complete-state {
@@ -232,7 +236,7 @@ h2 {
 
 .front-card {
     position: absolute;
-    top: 12em;
+    top: 10em;
     left: 0.8em;
     background: url(images/bg-card-front.png);
     width: 320px;
@@ -242,7 +246,7 @@ h2 {
 }
 
 .back-card {
-    top: 3em;
+    top: 1em;
     width: 320px;
     left: 0.8em;
 }
